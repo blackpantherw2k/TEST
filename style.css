@@ -163,7 +163,6 @@ body {
     font-size: 1.05rem;
     text-align: justify;
     hyphens: none;
-    overflow-wrap: break-word;
     line-height: 1.6;
 }
 
@@ -261,6 +260,7 @@ body {
         display: none;
     }
 }
+
 
 
 
