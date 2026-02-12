@@ -190,13 +190,21 @@ body {
     gap: 30px;
 }
 
-.image-grid img {
+.image-grid img, 
+.image-grid video {
     width: 100%;
     border-radius: 16px;
     background: #ffffff;
     padding: 10px;
     box-shadow: var(--shadow-soft);
     transition: var(--transition);
+    object-fit: contain;
+    height: 300px;
+}
+
+.image-grid video {
+   grid-column: span 2;
+   height: 400px;
 }
 
 .image-grid img:hover {
@@ -260,6 +268,7 @@ body {
         display: none;
     }
 }
+
 
 
 
