@@ -161,6 +161,8 @@ body {
     max-width: 900px;
     color: var(--text-muted);
     font-size: 1.05rem;
+    text-align: justify;
+    hyphens: auto;
 }
 
 /* =====================================================
@@ -257,3 +259,4 @@ body {
         display: none;
     }
 }
+
